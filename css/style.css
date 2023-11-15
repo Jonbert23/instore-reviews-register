@@ -368,7 +368,7 @@ input[type="checkbox"]:checked{
     }
 
     .step05-bg {
-        background:url("/images/mb-step-05.png");
+        background:url("/images/payment.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -563,7 +563,7 @@ input[type="checkbox"]:checked{
     }
 
     .step05-bg {
-        background:url("/images/mb-step-05.png");
+        background:url("/images/payment.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
