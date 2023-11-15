@@ -1,0 +1,741 @@
+/* POPPINS FONT */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.bg-red{
+    background: #E43F32;
+}
+.bg-green {
+    background: #34A753;
+}
+.bg-blue {
+    background: #4083F2;
+}
+
+.bg-yellow {
+    background: #FBBF00;
+}
+
+.bg-red:hover{
+    background: #E43F32;
+}
+.bg-green:hover {
+    background: #34A753;
+}
+.bg-blue:hover {
+    background: #4083F2;
+}
+
+.bg-yellow:hover {
+    background: #FBBF00;
+}
+
+.wrapper {
+    height: 80vh;
+    width: 80%;
+    padding: 0px;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.2);
+}
+
+.register-container {
+    background:url("/images/bg.png");
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+} 
+
+.left {
+    border-radius: 0;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.step01-bg {
+    background:url("/images/thumbnail-02.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.step02-bg {
+    background:url("/images/STEP003.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.step03-bg {
+    /* background:url("/images/final-step-03.png"); */
+    background:url("/images/test.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.step04-bg {
+    background:url("/images/final-step-04.png");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.step05-bg {
+    background:url("/images/STEP007.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.step06-bg {
+    background:url("/images/STEP008.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.step07-bg {
+    background:url("/images/step-07-pic.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.step08-bg {
+    background:url("/images/step-08-pic.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.step09-bg {
+    background:url("/images/final-step-09.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.left-decal {
+    background: #F1F8F5;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-decal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.input-box {
+    width: 450px;
+    box-sizing: border-box;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.input-v2{
+    height: 45px;
+    background: transparent;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline: none;
+    margin-bottom: 15px;
+    color: #40414a;
+    text-indent: 20px;
+}
+
+.submit{
+    border: none;
+    outline: none;
+    height: 45px;
+    border-radius: 30px;
+    color: #fff;
+    margin-top: 20px;
+    opacity: 0.8;
+    transition: .4s;
+}
+
+.submit:disabled 
+{
+    background-color: #e0e0e0;
+    color: #888;
+    cursor: not-allowed;
+}
+
+.flex-submit{
+    border: none;
+    outline: none;
+    height: 45px;
+    border-radius: 30px;
+    color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+    opacity: 0.8;
+    transition: .4s;
+ }
+
+.header{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.main-header
+{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.sub-header
+{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.info
+{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+input[type="checkbox"]:checked{
+    background-color: #E43F32;
+    border: none;
+}
+
+.input-select{
+    height: 45px;
+    width: 100%;
+    background: transparent;
+    appearance: none;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline: none;
+    margin-bottom: 15px;
+    color: #40414a;
+    padding-left: 20px;
+}
+
+.icons {
+    border-radius: 60px;
+    font-size: 25px;
+}
+
+.icons-special{
+    border-radius: 80px;
+    font-size: 20px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 21px;
+    padding-right: 21px;
+}
+
+.business-header {
+    font-size: 21px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.business-name{
+    font-size: 18 px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.business-address{
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.my-card{
+    box-shadow: 3px 3px 10px 1px rgba(0,0,0,0.1);
+    border: none;
+}
+
+.quatity input {
+    background: transparent;
+    width: 40px;
+    border-style: solid;
+    border-width: 0.3px;
+    border-color: #e6e6e6 ;
+    text-indent: 5px;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2);
+}
+
+.quatity input:focus {
+  
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #e6e6e6 ;
+    
+   
+}
+
+.quatity button {
+    background: transparent;
+    width: 30px;
+    margin-left: -5px ;
+    border: none;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2);
+}
+
+.price {
+    color: #E43F32;
+}
+
+.btn-minus:hover {
+    color: white;
+    background-color: #E43F32;
+}
+
+.btn-plus:hover {
+    color: white;
+    background-color: #34A753;
+}
+
+.decal-img {
+    width: 85%;
+}
+.price-items {
+    width: 450px;
+}
+
+
+
+@media only screen and (max-width: 767px)
+{
+    .step01-bg {
+        background:url("/images/mb-step-01.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .step02-bg {
+        background:url("/images/mb-step-02.png");
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .step03-bg {
+        background:url("/images/mb-step-03.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .step04-bg {
+        background:url("/images/mb-step-04.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .step05-bg {
+        background:url("/images/mb-step-05.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .step06-bg {
+        background:url("/images/mb-step-06.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .step07-bg {
+        background:url("/images/mb-step-07.jpg");
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .step08-bg {
+        background:url("/images/mb-step-08.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+    .register-container {
+        background: #fff;
+    }
+    .wrapper {
+        height: 100vh;
+        width: 100%;
+        padding: 0px;
+        box-shadow: 0px -5px 10px 1px rgba(0,0,0,0.2);
+        display: flex; 
+    }
+    .left {
+        height: 25vh;
+        position: fixed;
+    }
+    .right {
+        background-color: #fff;
+        height: 77vh;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border-radius: 15px 15px 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        /* box-shadow: 0px -2px 10px 1px rgba(0,0,0,0.3); */
+    }
+
+    .left-decal {
+        height: 42vh;
+        position: fixed;
+    }
+    .right-decal {
+        background-color: #fff;
+        height: 60vh;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border-radius: 15px 15px 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        /* box-shadow: 0px -2px 10px 1px rgba(0,0,0,0.3); */
+    }
+    
+    .input-box{
+        width: 330px;
+        box-sizing: border-box;
+    }
+
+    .input-v2{
+        height: 40px;
+        background: transparent;
+        border-radius: 30px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        outline: none;
+        margin-bottom: 15px;
+        color: #40414a;
+        text-indent: 20px;
+        font-size: 13px;
+    }
+
+    .header{
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .icons {
+        border-radius: 60px;
+        font-size: 15px;
+    }
+    
+    .icons-special{
+        border-radius: 80px;
+        font-size: 12px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-left: 21px;
+        padding-right: 21px;
+    }
+
+    .business-header {
+        font-size: 18px;
+        font-weight: 600;
+        margin-left: 20px;
+    }
+    
+    .business-name{
+        font-size: 16px;
+        font-weight: 500;
+        margin-left: 20px;
+    }
+    
+    .business-address{
+        font-size: 13px;
+        font-weight: 400;
+        margin-left: 20px;
+    }
+
+    .flex-submit{
+        font-size: 11px;
+        border: none;
+        outline: none;
+        height: 45px;
+        border-radius: 20px;
+        color: #fff;
+        padding-left: 38px;
+        padding-right: 38px;
+        opacity: 0.8;
+        transition: .4s;
+     }
+
+    .price-items {
+        width: 320px;
+    }
+
+    .decal-img {
+        width: 60%;
+    }
+
+    .items {
+        font-size: 16px;
+    }
+
+    .quatity input {
+        font-size: 16px;
+    }
+    .quatity button {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 884px) {
+
+    .step01-bg {
+        background:url("/images/mb-step-01.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .step02-bg {
+        background:url("/images/mb-step-02.png");
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .step03-bg {
+        background:url("/images/mb-step-03.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .step04-bg {
+        background:url("/images/mb-step-04.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .step05-bg {
+        background:url("/images/mb-step-05.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .step06-bg {
+        background:url("/images/mb-step-06.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .step07-bg {
+        background:url("/images/mb-step-07.jpg");
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .step08-bg {
+        background:url("/images/mb-step-08.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .register-container {
+        background: #fff;
+        
+    }
+    .wrapper {
+        height: 100vh;
+        width: 100%;
+        padding: 0px;
+        display: flex; 
+    }
+
+    .left {
+        height: 35vh;
+    }
+
+    .left-decal {
+        height: 35vh;
+    }
+
+    .right {
+        height: 67vh;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        box-shadow: 0px px 0px 0px rgba(0,0,0,0);
+        padding-bottom: 40px;
+        /* box-shadow: 0px -2px 10px 1px rgba(0,0,0,0.3); */
+    }
+
+    .right-decal {
+        height: 67vh;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        box-shadow: 0px px 0px 0px rgba(0,0,0,0);
+        padding-bottom: 40px;
+        /* box-shadow: 0px -2px 10px 1px rgba(0,0,0,0.3); */
+    }
+
+    .input-box {
+        width: 600px;
+        box-sizing: border-box;
+    }
+
+    .decal-img {
+        width: 35%;
+    }
+
+  }
+
+  @media only screen and (min-width: 884px) and (max-width: 1200px) {
+
+    .step01-bg {
+        background:url("/images/thumbnail-02.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .step02-bg {
+        background:url("/images/STEP003.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .step03-bg {
+        /* background:url("/images/final-step-03.png"); */
+        background:url("/images/test.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .step04-bg {
+        background:url("/images/final-step-04.png");
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .step05-bg {
+        background:url("/images/STEP007.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .step06-bg {
+        background:url("/images/STEP008.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .step07-bg {
+        background:url("/images/step-07-pic.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .step08-bg {
+        background:url("/images/step-08-pic.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .step09-bg {
+        background:url("/images/final-step-09.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .register-container {
+        background: #fff;
+        width: 100%;
+        height: 100vh;
+    }
+    .wrapper {
+        height: 100%;
+        width: 100%;
+        padding: 0px;
+        box-shadow: 0px px 0px 0px rgba(0,0,0,0);
+        display: flex; 
+    }
+
+    .input-box {
+        width: 350px;
+        box-sizing: border-box;
+    }
+
+    .input-v2{
+        height: 40px;
+        background: transparent;
+        border-radius: 30px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        outline: none;
+        margin-bottom: 15px;
+        color: #40414a;
+        text-indent: 20px;
+        font-size: 13px;
+    }
+  }
+
+

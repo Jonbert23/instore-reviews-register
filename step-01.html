@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="images/instore-fav-icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Instore Reviews</title>
+</head>
+<body>
+    <div class="register-container">
+        <div class="row wrapper">
+            <div class="col-lg-6 left step01-bg">
+                <!-- Image -->
+            </div>
+
+            <div class="col-lg-6 right">
+                <form>
+                    <div class="input-box">
+                        <header class="header">Let's Create Your <br/> Account</header>
+                        <div class="input-field">
+                            <label for="email">Name</label> 
+                            <input type="text" class="input-v2" id="name" required="" autocomplete="off" placeholder="Name">
+                        </div> 
+
+                        <div class="input-field">
+                            <label for="pass">Email</label>
+                            <input type="email" class="input-v2" id="pass" required="" placeholder="Email" >
+                        </div> 
+
+                        <div class="input-field">
+                            <label for="pass">Password</label>
+                            <input type="password" class="input-v2" id="pass" required="" placeholder="Password">
+                        </div> 
+
+                        <div class="input-field">
+                            <label for="pass">Confirm Password</label>
+                            <input type="password" class="input-v2" id="pass" required="" placeholder="Confirm Password">
+                        </div> 
+
+                        <div class="input-field">
+                            <div class="form-check">
+                                <input class="form-check-input check-box" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                Remember me
+                                </label>
+                            </div>
+                        </div>
+                        <div class="input-field">  
+                            <button onclick="navigateToNextPage()"  class="submit bg-red"> CREATE ACCOUNT </button>
+                        </div> 
+                    </div>  
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function navigateToNextPage() {
+            // Change 'page2.html' to the actual filename of your next HTML page
+            window.location.href = 'step-02.html';
+        }
+    </script>
+</body>
+</html>
