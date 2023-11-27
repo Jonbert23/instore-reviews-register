@@ -33,7 +33,7 @@
 }
 
 .wrapper {
-    height: 80vh;
+    height: 80%;
     width: 80%;
     padding: 0px;
     box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.2);
@@ -64,7 +64,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+                                                                           
 .step02-bg {
     background:url("/images/STEP003.png");
     background-position: center;
@@ -204,9 +204,9 @@
     font-size: 25px;
     font-weight: 600;
     text-align: center;
+    /* margin-bottom: 10px;
+    margin-top: 40px; */
     margin-bottom: 10px;
-    margin-top: 40px;
-    margin-bottom: 40px;
 }
 
 .main-header
@@ -265,7 +265,7 @@ input[type="checkbox"]:checked{
 }
 
 .business-header {
-    font-size: 21px;
+    font-size: 18px;
     font-weight: 500;
     margin-left: 20px;
 }
@@ -648,7 +648,7 @@ input[type="checkbox"]:checked{
 
   }
 
-  @media only screen and (min-width: 884px) and (max-width: 1200px) {
+  @media only screen and (min-width: 884px) and (max-width: 1400px) {
 
     .step01-bg {
         background:url("/images/thumbnail-02.png");
