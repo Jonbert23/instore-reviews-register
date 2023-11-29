@@ -268,13 +268,22 @@ input[type="checkbox"]:checked{
     font-size: 18px;
     font-weight: 500;
     margin-left: 20px;
+
 }
 
 .business-name{
-    font-size: 18 px;
+    font-size: 18px;
     font-weight: 400;
     margin-left: 20px;
 }
+
+
+.my-text-container {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 150px;
+  }
 
 .business-address{
     font-size: 15px;
@@ -334,6 +343,21 @@ input[type="checkbox"]:checked{
 .price-items {
     width: 450px;
 }
+
+.carousel 
+{
+    width: 300px;
+    margin-left: 20%;
+}
+
+.decals {
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
 
 
 
@@ -537,6 +561,12 @@ input[type="checkbox"]:checked{
     .quatity button {
         font-size: 16px;
     }
+
+    .carousel 
+    {
+        width: 300px;
+        margin-left: 5%;
+    }
 }
 
 @media only screen and (min-width: 767px) and (max-width: 884px) {
@@ -646,6 +676,27 @@ input[type="checkbox"]:checked{
         width: 35%;
     }
 
+    .carousel 
+    {
+        width: 500px;
+        margin-left: 10%;
+    }
+
+    .decals {
+        width: 450px;
+        height: 450px;
+    }
+
+    .header{
+        font-size: 25px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    
   }
 
   @media only screen and (min-width: 884px) and (max-width: 1400px) {
@@ -742,6 +793,17 @@ input[type="checkbox"]:checked{
         color: #40414a;
         text-indent: 20px;
         font-size: 13px;
+    }
+
+    .carousel 
+    {
+        width: 300px;
+        margin-left: 7%;
+    }
+
+    .decals {
+        width: 300px;
+        height: 300px;
     }
   }
 

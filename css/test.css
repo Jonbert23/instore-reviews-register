@@ -1,0 +1,21 @@
+.carousel{
+    height: 100vh;
+    perspective: 250px;
+}
+.carousel .carousel-item{
+    width: 450px;
+}
+.card {
+	position: relative;
+	width: 450px;
+	padding: 5px;
+	color: #262626;
+	box-shadow: 0 8px 20px 0px rgba(0,0,0,0.2);
+}
+.img-area {
+  text-align: center;
+}
+.img-area img {
+  width: 100%;
+}
+
