@@ -39,6 +39,23 @@
     box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.2);
 }
 
+.ty-wrapper {
+    background: #F1F8F5;
+    height: 80%;
+    width: 80%;
+    padding: 0px;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.2);
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+
+
 .register-container {
     background:url("/images/bg.png");
     width: 100%;
@@ -178,7 +195,8 @@
     color: #fff;
     margin-top: 20px;
     opacity: 0.8;
-    transition: .4s;
+    transition: .4s;b  
+    width: 200px;
 }
 
 .submit:disabled 
@@ -296,6 +314,12 @@ input[type="checkbox"]:checked{
     border: none;
 }
 
+.ny-card{
+    box-shadow: 3px 3px 10px 1px rgba(0,0,0,0.1);
+    border: none;
+    margin-top: -90px;
+}
+
 .quatity input {
     background: transparent;
     width: 40px;
@@ -340,6 +364,10 @@ input[type="checkbox"]:checked{
 .decal-img {
     width: 85%;
 }
+
+.ny-img {
+    width: 75%;
+}
 .price-items {
     width: 450px;
 }
@@ -355,14 +383,76 @@ input[type="checkbox"]:checked{
     height: 300px;
 }
 
+.ty-heading {
+    font-size: 45px;
+    color: #2B2F78;
+    line-height: 50px;
+    font-weight: 700;
+}
 
+.ty-desc {
+    font-size: 25px;
+    color: #504C4C;
+    font-weight: 400;
+}
 
+.ty-img 
+{
+    width: 20%; 
+    display: flex;
+    justify-content: center;
+}
 
+.ty-text-container {
+    margin-top: 45px
+}
 
+.ty-submit{
+    border: none;
+    outline: none;
+    height: 45px;
+    border-radius: 30px;
+    color: #fff;
+    margin-top: 20px;
+    opacity: 0.8;
+    transition: .4s;
+    width: 310px; 
+    
+}
 
 
 @media only screen and (max-width: 767px)
 {
+    .ty-img 
+    {
+        width: 80%; 
+        display: flex;
+        justify-content: center;
+    }
+
+    .ty-wrapper {
+        background: #F1F8F5;
+        height: 100%;
+        width: 100%;
+        box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.2);
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ty-heading {
+        font-size: 22px;
+        color: #2B2F78;
+        line-height:35px;
+        font-weight: 700;
+    }
+    
+    .ty-desc {
+        font-size: 17px;
+        color: #504C4C;
+        font-weight: 400;
+    }
+
     .step01-bg {
         background:url("/images/mb-step-01.png");
         background-position: center;
@@ -436,6 +526,10 @@ input[type="checkbox"]:checked{
         box-shadow: 0px -5px 10px 1px rgba(0,0,0,0.2);
         display: flex; 
     }
+
+    
+
+
     .left {
         height: 25vh;
         position: fixed;
@@ -570,6 +664,37 @@ input[type="checkbox"]:checked{
 }
 
 @media only screen and (min-width: 767px) and (max-width: 884px) {
+
+    .ty-img 
+    {
+        width: 50%; 
+        display: flex;
+        justify-content: center;
+    }
+
+    .ty-wrapper {
+        background: #F1F8F5;
+        height: 90%;
+        width: 90%;
+        box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.2);
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ty-heading {
+        font-size: 40px;
+        color: #2B2F78;
+        line-height:45px;
+        font-weight: 700;
+        margin-bottom: 35px;
+    }
+    
+    .ty-desc {
+        font-size: 28px;
+        color: #504C4C;
+        font-weight: 400;
+    }
 
     .step01-bg {
         background:url("/images/mb-step-01.png");
