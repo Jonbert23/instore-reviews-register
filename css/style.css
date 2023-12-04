@@ -196,7 +196,7 @@
     margin-top: 20px;
     opacity: 0.8;
     transition: .4s;
-    width: 200px;
+    /* width: 200px; */
 }
 
 .submit:disabled 
@@ -418,6 +418,13 @@ input[type="checkbox"]:checked{
     transition: .4s;
     width: 310px; 
     
+}
+
+.exit-btn {
+    border: none;
+    background: none;
+    font-size: 30px;
+    font-weight: 400;
 }
 
 
